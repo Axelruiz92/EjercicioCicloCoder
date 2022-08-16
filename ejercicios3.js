@@ -1,66 +1,18 @@
 
-/*
-for (let i=0; i < 10; i++ ) {
-    console.log ("El valor de i es:", i);
-  }
-*/ 
+let voto_usuario = "";
 
 
-/*
+voto_usuario = prompt("Voy a ayudarte a averiguar cuantos segundos son el numero de horas que ingreses, si crees que esto te sera util ingresa 'SI', de lo contrario escriba 'SALIR'")
 
-for (let i=0; i < 5; i++ ) {
-  let nombre = prompt ("ingrese su nombre");
-  console.log ("bienvenido/a" , nombre)
+if ( voto_usuario != "SALIR") {
+  let num_uno = parseInt(prompt ("Ingrese la cantidad de horas"));
+
+console.log(" la cantidad de segundos es ", num_uno*3600);
 }
- */
 
+else if ( voto_usuario == "SALIR") {
+  let num_dos = parseInt(prompt ("Creeme, lo vas a necesitar. Ingrese la cantidad de horas"));
 
-
-/*
-for (let i=0; i < 3 ; i++ ) {
-  let numero = parseInt(prompt ("dime un numero, te dire el siguiente"));
-  console.log ("elegiste el numero:" , numero , "el siguiente numero es:", numero+1) 
+console.log(" la cantidad de segundos es ", num_dos*3600);
 }
- */
 
-
-/*
-let numero = parseInt(prompt("dime un numero del 1 al 10, te dire su tabla"))  
-
-for (let i=0; i < 11 ; i++ ) {
- 
-  console.log(numero, "x" , i , " = " , numero*i  )
-} 
-*/
-
-///////////////////////////////////////////////////////////////
-
-//BREAK
-/*
-for (let i=0; i < 3 ; i++ ) {
-  let num_uno = parseInt(prompt ("Ingrese el primer numero"));
-  let num_dos = parseInt(prompt ("Ingrese otro numero"));
-
-
-if (num_dos == 0 ) {
-  console.log(" no se puede dividir por 0 ");
-  break
-}
-console.log(" el resultado de la division es ", num_uno/num_dos);
-}
-*/
-
-/*
-
-for (let i=0; i < 3 ; i++ ) {
-  let num_uno = parseInt(prompt ("Ingrese el primer numero"));
-  let num_dos = parseInt(prompt ("Ingrese otro numero"));
-
-
-if (num_dos == 0 ) {
-  console.log(" no se puede dividir por 0 ");
-  continue
-}
-console.log(" el resultado de la division es ", num_uno/num_dos);
-}
-*/
